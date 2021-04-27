@@ -18,7 +18,7 @@ namespace pc_2.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult comprar()
         {
             return View();
         }
