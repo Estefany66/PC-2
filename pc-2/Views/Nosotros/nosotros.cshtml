@@ -2,29 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-
 <div class="text-center">
-    <h1 class="display-4">Formulario </h1>
-    
-  
+    <h1 class="display-4">nosotros</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-<form asp-controller="Nosotros" asp-action="MiMetodoExecute" method="POST" style="margin-left: 30%; margin-right:30%;">
-
-     <label asp-for="DatosdeProducto" class="control-label"></label>
-     <input asp-for="DatosdeProducto" class="form-control" />
-
-     <label asp-for="Nombre" class="control-label"></label>
-     <input asp-for="Nombre" class="form-control" />
-
-     <label asp-for="Apellidos" class="control-label"></label>
-     <input asp-for="Apellidos" class="form-control" />
-
-     <label asp-for="Direccion" class="control-label"></label>
-     <input asp-for="Direccion" class="form-control" />
-
-
-    <div class="form-group" style="margin-top: 5%;">
-        <button  type="submit" class="btn btn-warning" style="width: 100%;">Enviar</button> 
-    </div>              
-</form>
-<h1 style="text-align: center; font-family: 'Times New Roman', Times, serif;">@ViewData["Message"]</h1>
